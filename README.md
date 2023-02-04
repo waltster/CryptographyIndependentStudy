@@ -1,6 +1,5 @@
 # Cryptography and Network Security: History, Theory, and Application
-**by Walter Pach**
-**supervised by Dr. Chin-Tser Huang at the UofSC**
+**by Walter Pach and supervised by Dr. Chin-Tser Huang at the UofSC**
 
 This study analyzes the way that cryptography has historically developed, is
 implemented today, and may be implemented in the future. Topics covered 
