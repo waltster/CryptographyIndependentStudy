@@ -64,6 +64,7 @@ cryptosystems was helpful in understanding any.
 > government, or perhaps more abruptly from the bombing of a federal building"
 > 
 > If privacy is outlawed, only outlaws will have privacy
+>
 > (pp. 34, "PGP 7.0: An Introduction to Cryptography")
 
 ## Phil Zimmermann's Essay 
