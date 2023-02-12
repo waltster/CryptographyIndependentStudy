@@ -1,5 +1,5 @@
-# Reading Notes for _Cryptology: From Caesar Ciphers to Public-Key
-Cryptosystems_
+Reading Notes for _Cryptology: From Caesar Ciphers to Public-Key Cryptosystems_
+=======================
 
 Luciano, Dennis, and Gordon Prichett. "Cryptology: From Caesar Ciphers to 
 Public-Key Cryptosystems.” The College Mathematics Journal, vol. 18, no. 1, 
