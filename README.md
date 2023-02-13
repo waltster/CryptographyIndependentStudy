@@ -12,7 +12,7 @@ cryptography in secure network communication for confidentiality and privacy.
 
 ## Repository Structure
 * Weekly folder
-    * Study notes
-    * Practicals
+    * Study notes (subfolders)
+    * Practicals (subfolders)
 * Study-wide documentation
 * Automation/helper scripts
