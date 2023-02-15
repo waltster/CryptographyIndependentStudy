@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
     int rotation = 13;
 
     if(argc < 2 || argc > 3) {
-        printf("%s: <message> [rotation]\n", argv[0]);
+        printf("%s: <message> [rotation || 13]\n", argv[0]);
         exit(1);
     } else if(argc == 3) {
         rotation = atoi(argv[2]);
