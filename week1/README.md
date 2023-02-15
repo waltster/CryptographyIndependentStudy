@@ -10,3 +10,7 @@
   [notes](./Introduction_to_Cryptography_Reading_Notes.md))
 
 ## Practicals
+- [ROT13 implementation](./rot13): My implementation of ROT13 cipher in C. This
+  supports any number of rotation, with 13 as the default.
+- [One-Time-Pad Implementation](./one_time_pad): My implementation of OTP
+  encryption in C.
