@@ -121,6 +121,6 @@ b1*b2       = 01011101
  1 1 2 3
  3 1 1 2]
 ```
-5. __Add Rount Key:__ XOR the state array and the respective round key. This is
+5. __Add Round Key:__ XOR the state array and the respective round key. This is
    passed to the next stage as input, or outputed as ciphertext if this is the
    final round.
