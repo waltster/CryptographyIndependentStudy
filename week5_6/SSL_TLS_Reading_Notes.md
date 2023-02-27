@@ -26,6 +26,8 @@ Perez, Andre. Network Security, John Wiley & Sons, 17 November 2014.
   allowing multiple SSL/TLS messages in a single TCP segment
 - Encapsulation of messages in the application layer is done via a _Record_
   header, providing encryption, authentication, and nonrepudiation.
+- Allows for Key Establishment, Encryption, Digital Signatures, data Hashing,
+  and compression
 
 ## Types of Messages
 - `alert` - Alerts the other side of an important state change or the neccessity
@@ -41,3 +43,14 @@ Perez, Andre. Network Security, John Wiley & Sons, 17 November 2014.
   the means for encrypting/compressing traffic
 
 ## Handshake Process
+The handshake process exists to create a connection between server and client
+with the full cryptographic capabilities.
+
+1. Server sends a `hello_request` message, initializing the handshake.
+2. Parties exchange `hello` messages, defining which algorithms they will use as
+   well as random numbers to seed with.
+3. Parties exchange cryptographic parameters that allow them to build a secret
+4. Parties exchange certificates and cryptographic parameters to identify
+   themselves
+5. Parties confirm that they have calculated the correct security parameters.
+
