@@ -26,7 +26,9 @@ for the transmission/encryption of Top Secret Information
 
 AES can be implemented in any language that supports manipulation of binary
 numbers and is provided in a wide array of open-source libraries and packages,
-including the Linux kernel's Crypto API.
+including the Linux kernel's Crypto API. At the disk level, AES is widely used
+as part of macOS's FireVault program, IBM encryption, and most encrypted
+file systems, including NTFS.
 
 Since the release of `IEEE 802.11i-2004`, AES is used as the default block
 cipher to supercede WEP and WPA's use of the RC4 stream cipher.
@@ -124,3 +126,7 @@ b1*b2       = 01011101
 5. __Add Round Key:__ XOR the state array and the respective round key. This is
    passed to the next stage as input, or outputed as ciphertext if this is the
    final round.
+
+## Sample Implementations
+* [tiny-AES-c](https://github.com/kokke/tiny-AES-c) - Incredibly slim
+  implementation of AES in C for use in embedded systems.
